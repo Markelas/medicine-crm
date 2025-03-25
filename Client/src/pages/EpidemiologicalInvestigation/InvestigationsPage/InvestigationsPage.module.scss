@@ -1,0 +1,80 @@
+.container {
+   max-width: none !important;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+
+   h1 {
+      margin: 0;
+      font-size: 1.5rem;
+   }
+}
+
+.buttonAddInvestigation {
+   background-color: #3761f3 !important;
+   color: white !important;
+   padding: 10px 20px !important;
+   border-radius: 12px;
+   font-weight: 600;
+}
+
+.tableContainer {
+   overflow-x: auto;
+   max-height: 600px;
+   position: relative;
+   border-radius: 10px;
+   border: 4px solid #f4f4f4;
+}
+
+.tableHeader {
+   background-color: #f4f4f4;
+   color: white;
+}
+
+.tableRow:nth-child(odd) {
+   background-color: white;
+}
+
+.tableRow:nth-child(even) {
+   background-color: #f4f4f4;
+}
+
+.viewButton {
+   background-color: #ffffff;
+   border: 2px solid #007bff;
+   color: #007bff;
+   &:hover {
+      background-color: #007bff;
+      color: white;
+   }
+}
+
+.editButton {
+   background-color: #3761f3;
+   color: white;
+   &:hover {
+      background-color: #005cbf;
+   }
+}
+
+.deleteButton {
+   background-color: #f44336;
+   color: white;
+   &:hover {
+      background-color: #d32f2f;
+   }
+}
+
+.MuiButton-root {
+   color: white !important;
+   padding: 8px 10px !important;
+}
+
+.MuiTypography-root {
+   font-size: 16px;
+   color: #333;
+}

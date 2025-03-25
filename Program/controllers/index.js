@@ -1,0 +1,9 @@
+export * as UserController from './UserController.js';
+export * as PatientCardController from './PatientCardController.js';
+export * as EpidemiologicalInvestigationController from './EpidemiologicalInvestigationController.js';
+export * as EmergencyNotificationController from './EmergencyNotificationController.js';
+export * as DiseaseController from './DiseaseController.js';
+export * as PatientVisitController from './PatientVisitController.js';
+export * as VaccinationController from './VaccinationController.js';
+export * as VaccineController from './VaccineController.js';
+export * as StatisticsController from './StatisticsController.js';

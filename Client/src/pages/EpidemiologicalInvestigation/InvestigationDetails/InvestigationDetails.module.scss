@@ -1,0 +1,34 @@
+.container {
+   padding: 20px;
+   max-width: 600px;
+   margin: 20px auto;
+   background-color: #f9f9f9;
+   border-radius: 8px;
+}
+
+.title {
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.details {
+   margin-bottom: 20px;
+
+   strong {
+      color: #333;
+   }
+
+   p {
+      margin: 5px 0;
+   }
+}
+
+.actions {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+
+   button {
+      text-transform: uppercase;
+   }
+}

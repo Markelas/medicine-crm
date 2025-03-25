@@ -1,0 +1,97 @@
+.drawer {
+   width: 280px;
+   flex-shrink: 0;
+   .MuiDrawer-paper {
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      padding: 16px;
+   }
+}
+
+.logo {
+   text-align: center;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   h2 {
+      margin: 10px 0 0 10px;
+   }
+}
+
+.listItem {
+   padding: 12px;
+   border-radius: 16px;
+   transition:
+      background 0.3s ease,
+      color 0.3s ease; // Плавный переход для фона и цвета
+   margin: 2px 5px;
+
+   &:hover {
+      background: rgba(55, 97, 243, 0.1);
+   }
+
+   .listItemText {
+      font-weight: 800;
+   }
+}
+
+.listItemIcon {
+   margin: 0 10px 0 0;
+}
+
+.active {
+   padding: 12px;
+   border-radius: 16px;
+   color: #fff;
+   background: #3761f3;
+   transition:
+      background 0.3s ease,
+      color 0.3s ease; // Плавный переход для активного состояния
+}
+
+.bottomButtons {
+   margin-top: auto;
+   margin-bottom: 10px;
+}
+.userInfo {
+   cursor: pointer;
+   border-radius: 16px;
+   padding: 12px;
+   display: flex;
+   align-items: center;
+   box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12);
+   margin: 10px 8px 20px 8px;
+}
+
+.avatar {
+   width: 40px;
+   height: 40px;
+   font-size: 18px;
+   font-weight: bold;
+   background-color: #3761f3;
+   color: #fff;
+   margin-right: 10px;
+}
+
+.userDetails {
+   display: flex;
+   flex-direction: column;
+}
+
+.userName {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.userRole {
+   font-size: 14px;
+   color: gray;
+}
+
+.logout {
+   padding-bottom: 10px;
+}

@@ -1,0 +1,94 @@
+.userManagement {
+   padding: 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+   border-radius: 10px;
+}
+
+.title {
+   text-align: center;
+   font-size: 2rem;
+   margin-bottom: 30px;
+   font-family: 'Roboto', sans-serif;
+   color: #333;
+}
+
+.userCards {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+}
+
+.userCard {
+   background-color: #fff;
+   border-radius: 15px;
+   padding: 20px;
+   width: 280px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+
+   &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+   }
+}
+
+.userInfo {
+   margin-bottom: 15px;
+}
+
+.userName {
+   font-size: 1.3rem;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 5px;
+}
+
+.userEmail,
+.userRole {
+   font-size: 1rem;
+   color: #777;
+}
+
+.roleBtn {
+   padding: 12px 25px;
+   border: none;
+   border-radius: 30px;
+   font-size: 1rem;
+   cursor: pointer;
+   transition:
+      background-color 0.3s ease,
+      opacity 0.3s ease;
+   width: 100%;
+   text-align: center;
+   font-weight: 600;
+
+   &:hover {
+      opacity: 0.8;
+   }
+}
+
+.assign {
+   background-color: #4caf50;
+   color: white;
+}
+
+.remove {
+   background-color: #f44336;
+   color: white;
+}
+
+.noAccess {
+   font-size: 1.2rem;
+   color: red;
+   text-align: center;
+   margin-top: 50px;
+   font-family: 'Roboto', sans-serif;
+}
